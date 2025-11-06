@@ -1,0 +1,21 @@
+# Ignore Python virtual environments
+venv/
+.env
+__pycache__/
+
+# Ignore model and cache folders
+*.pt
+*.bin
+*.ckpt
+*.h5
+*.dylib
+
+# Ignore system files
+.DS_Store
+.idea/
+.vscode/
+
+# Ignore compiled files
+*.pyc
+*.pyo
+*.pyd
